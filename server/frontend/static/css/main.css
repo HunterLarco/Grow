@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer; }
+
+html, body {
+  height: 100%;
+  min-height: 100% !important;
+  width: 100%;
+  overflow: scroll; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+.NotBox {
+  box-sizing: initial; }
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased; }
+
+editor {
+  display: block;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  background: #1f1f1f; }
+
+editor-content {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  width: 750px;
+  outline: none;
+  color: whitesmoke;
+  font-family: "Consolas", "Courier", monospace;
+  font-size: 16px; }
+
+.editor-component, priority-info, priority-ok, priority-warning, priority-error, section-title, subsection-title {
+  display: inline-block; }
+
+priority-info {
+  color: #828282; }
+
+priority-ok {
+  color: #29d330; }
+
+priority-warning {
+  color: #ef9f28; }
+
+priority-error {
+  color: #f1174a; }
+
+section-title {
+  display: block;
+  padding: 1em 0;
+  color: white; }
+  section-title:before, section-title:after {
+    display: block;
+    content: '///////////////////////////////////////////////////////////////////////'; }
+
+subsection-title {
+  display: block;
+  color: white; }
+  subsection-title:after {
+    display: block;
+    content: '=================='; }
